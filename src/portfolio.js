@@ -42,13 +42,13 @@ const projects = [
     description:
       'Resource Planner is able to distrute the current resource including human resource,time and budget in one company in order to help user to manahe their projects',
     stack: ['html-css-javascript', 'sequelize', 'React'],
-    // sourceCode: 'https://github.com/stone-com/Resource-Planner',
+    
     livePreview: 'https://www.mindluster.com/student/certificate/6475613258?fbclid=IwAR23uaiLMwmWNEcyHC1CeftRd4a_xEiswslWeQHUt-2C87YKaFswmh-qp9c',
   },
   {
     name: 'Jobportal Rojgar nepal(back end + frontend)',
     description:
-      'Jobportal is able to let user retrieve the game from database based on its year and category',
+      'Jobportal is able to let user search and apply for the new job from website , based on its year and category',
     stack: ['Nodejs', 'Mongodb', 'React','Material UI'],
     sourceCode: 'https://github.com/sagarregmi2056/jobportalbackend',
     
@@ -56,10 +56,10 @@ const projects = [
   {
     name: 'AI GENERATED Resume builder(back end +frontend)',
     description:
-      'MusicStore is able to direct user to the desired page based on its endpoints by track, album,artist and label',
-    stack: ['html-css-javascript', 'sequelize', 'React'],
-    sourceCode: '',
-    // livePreview: 'https://cheng32-musicstore-catalog.herokuapp.com/track',
+      'Resume builder is able to generate auto generated resume based on input field .',
+    stack: ['html-css-javascript', 'openAi Api', 'React'],
+    sourceCode: 'https://github.com/sagarregmi2056/AIresumeBuilderfrontend',
+   
   },
 ]
 
@@ -69,21 +69,16 @@ const skills = [
   'HTML',
   'CSS',
   'JavaScript',
-  
   'Express',
   'MySQL',
   'MongoDB',
-  'React',
   'Redux',
   'SASS',
   'Material UI',
   'Git',
   'MERN',
-  'Java',
-  
   'Microservices',
-  
-  'Heroku'
+  'Aws'
 ]
 
 const contact = {
